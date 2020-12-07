@@ -1,0 +1,179 @@
+@charset "utf-8";
+/*marquee*/
+dl.marquee, dl.marquee>dd {margin-bottom: 0;}
+
+/*媒合區 Endorsement*/
+div.jobList {background: #fff}
+div.jobList>h2 {
+	font-size: 1.5rem;
+	font-weight: 300;
+	border-bottom: 4px solid #e0e0e0;
+	padding: .75rem 1rem;
+}
+div.jobList>h2>span {
+	font-size: 1rem;
+	margin-left: 1rem;
+}
+
+table.jobList {width: 100%}
+table.jobList th {font-weight: 400; text-align: center}
+table.jobList tbody tr:nth-of-type(odd) {background: #e4e4e4}
+table.jobList td {font-size: .9rem; text-align: center; padding: .15rem .5rem}
+table.jobList td:nth-of-type(1) {
+	text-align: left;
+	/*單行文字限制*/
+	overflow:hidden;
+	text-overflow : ellipsis;
+	white-space : nowrap;
+}
+
+/*快速搜尋*/
+div.quick-search {border-top: 2px solid #e4e4e4}
+div.quick-search>div>img {max-width: 163px}
+div.quick-search lable {padding: .5rem .35rem}
+div.quick-search select {
+	width: 74%;
+	background: #dfdfdf;
+	border: none;
+	border-radius: .5rem;
+	padding: 0 0 0 .5rem
+}
+div.quick-search button {width: 100%}
+
+/*商品代言媒合區 Product Endorsement*/
+div.product-endorsement>h2 {border-top: 5px solid #ec242c}
+div.product-endorsement>h2>span {color: #ec242c}
+div.product-endorsement table thead tr {border-bottom: 1px solid #ec242c}
+div.product-endorsement table thead tr th {color: #ec242c}
+
+div.product-endorsement div.quick-search button {width: 100%}
+div.product-endorsement div.quick-search div button:nth-of-type(1) {
+	background: #fff;
+	border-color: #f12433;
+	color: #f12433
+}
+div.product-endorsement div.quick-search div button:nth-of-type(2) {
+	background: #f12433;
+	border-color: #f12433;
+	color: #fff
+}
+div.product-endorsement div.more {border-top: 5px solid #e4e4e4; text-align: center; padding-top: .75rem}
+div.product-endorsement div.more a {color: #ec242c}
+
+/*演出機會媒合區 Perform  Opportunities*/
+div.perform-opportunities>h2 {border-top: 5px solid #f27216}
+div.perform-opportunities>h2>span {color: #f27216}
+div.perform-opportunities table thead tr {border-bottom: 1px solid #f27216}
+div.perform-opportunities table thead tr th {color: #f27216}
+
+div.perform-opportunities div.quick-search button {width: 100%}
+div.perform-opportunities div.quick-search div button:nth-of-type(1) {
+	background: #fff;
+	border-color: #f27216;
+	color: #f27216
+}
+div.perform-opportunities div.quick-search div button:nth-of-type(2) {
+	background: #f27216;
+	border-color: #f27216;
+	color: #fff
+}
+div.perform-opportunities div.more {border-top: 5px solid #e4e4e4; text-align: center; padding-top: .75rem}
+div.perform-opportunities div.more a {color: #f27216}
+
+/*眾籌專區 Donate*/
+div.donate>h2 {border-top: 5px solid #b3206e}
+div.donate>h2>span {color: #b3206e}
+div.donate table thead tr {border-bottom: 1px solid #b3206e}
+div.donate table thead tr th {color: #b3206e}
+dl.donate>dt {
+	border-bottom: 1px solid #b3206e;
+	font-size: 1.15rem;
+	font-weight: 300;
+	color: #b3206e;
+	text-align: center
+}
+dl.donate>dd {
+	/*單行文字限制*/
+	overflow:hidden;
+	text-overflow : ellipsis;
+	white-space : nowrap;
+	margin-bottom: 0;
+	padding: .5rem 0
+}
+dl.donate>dd:nth-of-type(odd) {background: #e4e4e4}
+div.donate div.more {border-top: 5px solid #e4e4e4; text-align: center; padding-top: .75rem}
+div.donate div.more a {color: #b3206e}
+
+/*影音作品創作平台 Film & Video*/
+div.film-video>h2 {border-top: 5px solid #5c3992}
+div.film-video>h2>span {color: #5c3992}
+div.film-video table thead tr {border-bottom: 1px solid #5c3992}
+div.film-video table thead tr th {color: #5c3992}
+
+div.film-video div.quick-search button {width: 100%}
+div.film-video div.quick-search div button:nth-of-type(1) {
+	background: #fff;
+	border-color: #5c3992;
+	color: #5c3992
+}
+div.film-video div.quick-search div button:nth-of-type(2) {
+	background: #5c3992;
+	border-color: #5c3992;
+	color: #fff
+}
+div.film-video div.more {border-top: 5px solid #e4e4e4; text-align: center; padding-top: .75rem}
+div.film-video div.more a {color: #5c3992}
+
+div.video iframe {width: 100% !important; height: 520px !important}
+
+/*aside*/
+div.AD {margin-bottom: 1.5rem}
+
+dl.list {background: #fff; margin-bottom: 1.5rem;}
+dl.list>dt {border-bottom: 4px solid #e0e0e0; font-size: .9rem}
+dl.list>dt>h3 {
+	font-size: 1.25rem;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+dl.list>dt>h3>span {margin-left: .5rem;}
+dl.list>dt>span>a {
+	font-size: .9rem;
+	font-weight: 300;
+}
+dl.list>dd p {margin-bottom: .5rem;}
+dl.list>dd p:nth-of-type(2) {
+	font-size: .9rem;
+	/*多行文字限制*/
+	display: -webkit-box;  
+	overflow:hidden;
+	text-overflow : ellipsis;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+/*list title color*/
+dl.list>dt.course {border-top: 5px solid #01a9ae;}
+dl.list>dt.course>h3>span {color: #01a9ae;}
+dl.list>dt.course>span>a {color: #01a9ae;}
+
+dl.list>dt.news {border-top: 5px solid #78c526;}
+dl.list>dt.news>h3>span {color: #78c526;}
+dl.list>dt.news>span>a {color: #78c526;}
+
+dl.list>dt.horoscopes {border-top: 5px solid #360abf;}
+dl.list>dt.horoscopes>h3>span {color: #360abf;}
+dl.list>dt.horoscopes>span>a {color: #360abf;}
+
+dl.list>dt.bulletin {border-top: 5px solid #219c55;}
+dl.list>dt.bulletin>h3>span {color: #219c55;}
+dl.list>dt.bulletin>span>a {color: #219c55;}
+
+/*相關網站連結*/
+dl.links {margin-bottom: 1.5rem;}
+dl.links>dt {
+	border-bottom: 1px solid #4c4c4c;
+	font-size: 1.25rem;
+	font-weight: 300;
+	margin-bottom: 1rem
+}

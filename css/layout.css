@@ -1,0 +1,313 @@
+/*google web fonts*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);/*繁中*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900');
+
+html {min-height: 100%; font-size: 16px} /*16px x 93.75% = 15px 網站字型大小預設值*/
+body {
+    height: 100%;
+    background: #e0e0e0;
+    font-family: 'Roboto', 'Noto Sans TC', MS UI Gothic, MS Gothic, 'Font Awesome\ 5 Brands', 'Font Awesome\ 5 Free', 'Font Awesome\ 5 Pro', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: .05rem
+}
+* { /*使用邊框不影響 div or table 本身寬度設定*/
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+
+/*font awesome setting*/
+::before, ::after {margin-right: .5rem; margin-left: .5rem}
+
+label>sup {color: #f00}
+input, select, textarea {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #221e1f;
+    padding: .5rem .75rem
+}
+select {padding-bottom: .75rem}
+input:hover, select:hover, textarea:hover {
+    border: 1px solid #f12433;
+    outline: none
+}
+input:focus, select:focus, textarea:focus {
+    border: 1px solid #f37216;
+    outline: none
+}
+input::placeholder, textarea::placeholder {font-weight: 300; color: #afafaf}
+textarea {resize:none}
+input[type="checkbox"], input[type="radio"] {width: auto !important}
+
+button {
+    background: #fff;
+    border: 1px solid #333;
+    border-radius: .5rem;
+    font-weight: 400;
+    color: #333;
+    padding: .25rem 1.5rem
+}
+button:hover {
+    background: #ff3a1e;
+    border-color: #ff3a1e;
+    color: #fff
+}
+button[type="reset"] {background: #e9e9e9; border-color: #e9e9e9; color: #000}
+button[type="reset"]:hover {background: #797979; border-color: #e9e9e9; color: #fff}
+button[type="submit"], button.addCart {background: #f22433; border-color: #f22433; color: #fff}
+button[type="submit"]:hover, button.addCart:hover {background: #af1f37; border-color: #ff2247}
+
+a:link, a:visited {color: #221e1f; text-decoration: none; padding: 1px}
+a:hover {background: none; color: #f12433; text-decoration: none}
+a, button, dd, p, span {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto!important;
+    border: none
+}
+
+*[onclick], button {cursor: pointer}
+
+h1 {font-size: 1.73rem}
+h2 {font-size: 1.5rem}
+p, li {font-size: 1rem}
+li {list-style: none}
+
+div.clearfix {clear: both}
+
+div.backHome {text-align: center}
+div.backHome>a {
+	background: #ff2247;
+	border-radius: .35rem;
+	color: #fff;
+	padding: .5rem 1.5rem
+}
+div.backHome>a:hover {background: #a51029}
+
+/*goTOP use only*/
+.cd-top {
+    width: 2rem;
+    height: 2rem;
+    background: url(../images/layout/cd-top-arrow.svg) no-repeat center 50% #5273a6;
+    border-radius: .5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    text-indent: 100%;
+    white-space: nowrap;
+    visibility: hidden;
+    display: inline-block;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    z-index: 9999;
+    /* image replacement properties */
+    overflow: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s
+}
+.cd-top.cd-is-visible {visibility: visible; opacity: .75}
+/* the button becomes visible */
+/* .cd-top.cd-fade-out {opacity: .25} */
+/* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+.cd-top:hover {background: url(../images/layout/cd-top-arrow.svg) no-repeat center 50% #ff3a1e; opacity: 1} /*改變按鈕顏色*/
+@media only screen and (min-width: 1024px) {
+    .cd-top {right: 30px; bottom: 30px}
+}
+@media only screen and (min-width: 768px) {
+    .cd-top {right: 1.5rem; bottom: 6.5rem}
+}
+
+/*header*/
+header {}
+
+/*member, cart, search and social media*/
+section.social {background: #282828}
+dl.social, dl.social>dd {margin-bottom: 0}
+dl.social>dd {color: #fff; padding-left: .5rem}
+dl.social>dd img {width: 1.75rem}
+dl.social>dd>a.btn-secondary {
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important
+}
+dl.social>dd>button {
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: .5rem;
+	color: #000 !important;
+	padding: .15rem .5rem
+	
+}
+/*signin & iSignup*/
+/*nav tabs*/
+.nav-pills .nav-link {
+	border-bottom: 3px solid rgba(0, 0, 0, 0);
+	border-radius: 0;
+	color: #707070
+}
+.nav-link:focus, .nav-link:hover {
+	border-bottom: 3px solid rgba(0, 0, 0, 1);
+	color: #000
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	background: none;
+	border-bottom: 3px solid rgba(0, 0, 0, 1);
+	color: #000
+}
+
+button.close:hover {background: none !important}
+nav>div.member .nav-link {padding: .5rem 1.5rem}
+dl.signin>dd {
+	border: 1px solid #ddd;
+	border-radius: .5rem;
+	margin-bottom: 1rem;
+	overflow: hidden
+}
+dl.signin>dd>input {width: 90%; border: none}
+dl.signin>dd:nth-of-type(3), dl.signin>dd:nth-of-type(4) {border: none; border-radius: 0}
+dl.signin>dd>input.verificationCode {width: 60%; border: 1px solid #ddd; margin-right: .5rem}
+dl.signin>dd:nth-of-type(1)::after {content: "\f0e0"}
+dl.signin>dd:nth-of-type(2)::after {content: "\f023"; font-weight: 900}
+dl.signin>dd:nth-of-type(4)>button:nth-of-type(1) {width: 40%}
+dl.signin>dd:nth-of-type(4)>button:nth-of-type(2) {
+	width: 58%;
+	background: #4769a5;
+	border: none;
+	color: #fff
+}
+div.forgetPW {
+	border-top: 1px solid #ddd;
+	text-align: right;
+	padding: 1rem
+}
+dl.iSignup, dl.iSignup>dd, dl.iSignup>dd figure {margin-bottom: 0}
+dl.iSignup>dd {
+	background: #000;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff
+}
+dl.iSignup>dd:nth-of-type(3n+3) {border-right: none}
+dl.iSignup>dd figure {
+	border: 1px solid #fff;
+	color: #fff;
+	position: relative
+}
+dl.iSignup>dd figure figcaption {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.85);
+	text-align: center;
+	position: absolute
+}
+dl.iSignup>dd figure figcaption p {
+	margin-bottom: 0
+}
+
+/*logo*/
+a.navbar-brand>img {width: 20vw}
+
+/*nav*/
+.bg-light {background: rgba(255, 255, 255, 0.8) !important}
+
+/*選單設定*/
+.navbar-light .navbar-nav .nav-link {
+    border-bottom: 2px solid rgba(255, 58, 30, 0);
+    color: #333;
+    text-align: center;
+    line-height: 1rem
+}
+.navbar-light .navbar-nav .nav-link>span {font-size: .75rem; color: #f12433; letter-spacing: 0}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {color: #50585b}
+/*選單設定滑鼠滑過效果*/
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {color: #000}
+
+.dropdown-toggle::after {display: none}
+.dropdown:hover>.dropdown-menu {display: block}
+.dropdown-menu {
+    background: rgba(0, 0, 0, 0.85) !important;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    padding: 1rem;
+    top: 3rem;
+    left: -2.3rem
+}
+a.dropdown-item {
+    border-bottom: #fff 1px solid;
+    color: #fff;
+    margin-bottom: .5rem;
+    padding-bottom: .5rem
+}
+.dropdown-item:focus, .dropdown-item:hover {background: none; color: #fff}
+a.dropdown-item:last-of-type {border-bottom: none; margin-bottom: 0; padding-bottom: 0}
+
+/*moblie nav*/
+.navbar-light .navbar-toggler {border: #333 1px solid !important}
+button.navbar-toggler>i {color: #333}
+button.navbar-toggler>i::before, button.navbar-toggler>i::after {margin: 0}
+.navbar-light .navbar-toggler:hover {background: none; border-color: #ff3a1e !important}
+.navbar-light .navbar-toggler:hover>i {color: #ff3a1e}
+
+div.slidebars {
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.9);
+    box-shadow: rgba(0, 0, 0, .15) 1px 0 5px;
+    padding: 1rem
+}
+div.closeBtn {text-align: right}
+div.closeBtn>button {background: none; border: none; color: #fff}
+dl.slidebarNav {text-align: center; margin-bottom: 0}
+dl.slidebarNav>dd {
+    border-bottom: #ccc 1px solid;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem
+}
+dl.slidebarNav>dd>a {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.15rem;
+}
+dl.slidebarNav>dd>a>span {
+	font-size: .75rem;
+	font-weight: 500;
+	color: #f12433
+}
+dl.slidebarNav>dd:nth-last-of-type(2),
+dl.slidebarNav>dd:last-of-type {border-bottom: none}
+
+/*footer*/
+footer {background: #282828}
+
+section.footer {color: #fff}
+div.companyInfo>p {font-size: .9rem; margin-bottom: .5rem}
+div.companyInfo>p:nth-of-type(1) {margin-bottom: 2rem;}
+div.companyInfo>p:nth-of-type(1) img {width: 80%}
+div.companyInfo img {width: 1rem; margin-right: .5rem}
+
+nav.fNav {border-left: 1px solid #666}
+nav.fNav>p {text-align: center; margin-bottom: .5rem}
+nav.fNav>p:last-of-type img {width: 1.15rem}
+
+div.companyInfo>p>a, nav.fNav>p>a {color: #fff}
+
+section.copyright {color: #fff; text-align: center}
+section.copyright>p {font-size: .9rem; font-weight: 300; margin-bottom: 0}
+section.copyright>p:nth-child(1) {color: #fef100}

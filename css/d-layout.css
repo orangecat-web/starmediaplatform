@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.deskTop {display: none !important}
+	.Tablets {display: none !important}
+	.deskTopTablets {display: none !important}
+	.mobileSM {display: none !important}
+	/*header*/
+	/*social*/
+	.dropdown-menu {
+		width: 100%;
+		transform: translate3d(0, 36px, 0px) !important;
+		top: 0 !important;
+		left: 0 !important;
+	}
+	form.searchTop>input, form.memberTop>input {margin-bottom: 1rem}
+	form.searchTop>button, form.memberTop>button {width: 100%}
+	/*member*/
+	nav>div.member .nav-link {padding: .5rem 1rem}
+	dl.signin>dd>input {width: 85%}
+	dl.signin>dd>input.verificationCode {width: 100%; margin-bottom: 1rem}
+	dl.signin>dd:nth-of-type(4)>button:nth-of-type(1) {width: 100%; margin-bottom: 1rem}
+	dl.signin>dd:nth-of-type(4)>button:nth-of-type(2) {width: 100%}
+	dl.iSignup>dd:nth-of-type(3) {border-right: 1px solid #fff}
+	/*logo*/
+	a.navbar-brand>img {width: 60vw}
+	/*footer*/
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.deskTop {display: none !important}
+	.Tablets {display: none !important}
+	.mobileXS {display: none !important}
+	.deskTopTablets {display: none !important}
+	/*header*/
+	/*social*/
+	.dropdown-menu {
+		width: 100%;
+		transform: translate3d(0, 36px, 0px) !important;
+		top: 0 !important;
+		left: 0 !important;
+	}
+	/*logo*/
+	a.navbar-brand>img {width: 22vw}
+	/*footer*/
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.deskTop {display: none !important}
+	.mobileXS {display: none !important}
+	.Mobile {display: none !important}
+	/*header*/
+	a.navbar-brand>img {width: 30vw}
+	/*footer*/
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.Mobile {display: none !important}
+	.Tablets {display: none !important}
+	.TabletsMobile {display: none !important}
+	.mobileXS {display: none !important}
+	/*header*/
+	.navbar-light .navbar-nav .nav-link {font-size: 1rem}
+	/*footer*/
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.Mobile {display: none !important}
+	.Tablets {display: none !important}
+	.TabletsMobile {display: none !important}
+	.mobileXS {display: none !important}
+	/*header*/
+	.navbar-light .navbar-nav .nav-link {font-size: 1.25rem}
+	/*footer*/
+}
+
+/*iPhone 4S*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) {
+	.deskTop {display: none !important}
+	.Tablets {display: none !important}
+	.deskTopTablets {display: none !important}
+	/*header*/
+	/*footer*/
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {
+	.deskTop {display: none !important}
+	.Tablets {display: none !important}
+	.deskTopTablets {display: none !important}
+	/*header*/
+	/*footer*/
+}
+
+/*iPhone 5 & 5S*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+	.deskTop {display: none !important}
+	.Tablets {display: none !important}
+	.deskTopTablets {display: none !important}
+	/*header*/
+	/*footer*/
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+	.deskTop {display: none !important}
+	.Tablets {display: none !important}
+	.deskTopTablets {display: none !important}
+	/*header*/
+	/*footer*/
+}
+
+/*iPhone 6, 7, & 8*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
+	.deskTop {display: none !important}
+	.Tablets {display: none !important}
+	.deskTopTablets {display: none !important}
+	/*header*/
+	/*footer*/
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {
+	.deskTop {display: none !important}
+	.Tablets {display: none !important}
+	.deskTopTablets {display: none !important}
+	/*header*/
+	/*footer*/
+}
+
+/*iPhone 6, 7, & 8 Plus*/
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) {
+	.deskTop {display: none !important}
+	.Tablets {display: none !important}
+	.deskTopTablets {display: none !important}
+	/*header*/
+	/*footer*/
+}
+
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) {
+	.deskTop {display: none !important}
+	.Tablets {display: none !important}
+	.deskTopTablets {display: none !important}
+	/*header*/
+	/*footer*/
+}
+
+/*iPhone X*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
+	.deskTop {display: none !important}
+	.Tablets {display: none !important}
+	.deskTopTablets {display: none !important}
+	/*header*/
+	/*footer*/
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) {
+	.deskTop {display: none !important}
+	.Tablets {display: none !important}
+	.deskTopTablets {display: none !important}
+	.mobileXS {display: none !important}
+	/*header*/
+	/*footer*/
+}
+
+/*Retina iPad*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2) {
+	.deskTop {display: none !important}
+	.Mobile {display: none !important}
+	.mobileXS {display: none !important}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2) {
+	.deskTop {display: none !important}
+	.Mobile {display: none !important}
+	.mobileXS {display: none !important}
+}

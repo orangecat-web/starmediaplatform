@@ -1,0 +1,518 @@
+@charset "utf-8";
+div.editor {}
+div.editor, div.editor p, div.editor dl, div.editor dd, div.editor ul, div.editor li {font-size: 1rem; font-weight: 400}
+div.editor table {width: 100% !important}
+div.editor ul li {list-style: disc}
+div.editor ol li {list-style: decimal}
+div.editor img {padding-top: 1rem; padding-bottom: 1rem}
+
+/*btn link*/
+div.btnBack {text-align: center}
+div.btnBack>a {
+	border-radius: .5rem;
+	color: #fff;
+	padding: .5rem 1.5rem
+}
+div.outLink>a {font-size: 1.05rem; color: #0000d6}
+div.outLink>a:hover {color: #0c0c6d}
+
+/*pagination*/
+a.page-link {padding: .5rem .75rem}
+li.page-item:first-of-type>a.page-link,
+li.page-item:last-of-type>a.page-link {padding: .5rem}
+
+section.inPage {background: #fff}
+
+/*title*/
+div.title {
+	border-top: 5px solid #ededed;
+	border-bottom: 5px solid #ededed;
+	padding: 1.5rem 0 .35rem
+}
+div.title>h1, div.title>h2 {
+	font-size: 1.35rem;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+div.title>h1>span, div.title>h2>span {
+	font-size: 1rem;
+	font-weight: 400;
+	margin-left: 1rem
+}
+div.pTitle {border-bottom: 1px solid #ddd; margin-bottom: 1.25rem; padding-bottom: .5rem}
+div.pTitle>h1 {font-size: 1.5rem; font-weight: 300; margin-top: 1rem}
+div.pTitle>h3 {font-size: 1.25rem; font-weight: 300; margin-top: 1rem}
+div.pTitle>h3>i {color: #ddd}
+div.pTitle>p {margin-bottom: 0}
+div.pTitle>p>a {
+	background: #f12433;
+	border-radius: .5rem;
+	color: #fff;
+	padding: .5rem 1.5rem
+}
+div.pTitle>p>a:hover {background: #c31e2a}
+
+/*pages theme color*/
+div.bc-f12433 {border-top-color: #f12433}
+div.bc-f22433 {border-top-color: #f22433}
+div.bc-f37216 {border-top-color: #f37216}
+div.bc-78c526 {border-top-color: #78c526}
+div.bc-219c55 {border-top-color: #219c55}
+div.bc-01a9ae {border-top-color: #01a9ae}
+div.bc-0f8eed {border-top-color: #0f8eed}
+div.bc-5c3992 {border-top-color: #5c3992}
+div.bc-360abf {border-top-color: #360abf}
+div.bc-b3206e {border-top-color: #b3206e}
+div.bc-444444 {border-top-color: #444444}
+/*font color*/
+.fc-f12433 {color: #f12433}
+.fc-f22433 {color: #f22433}
+.fc-f37216 {color: #f37216}
+.fc-78c526 {color: #78c526}
+.fc-219c55 {color: #219c55}
+.fc-01a9ae {color: #01a9ae}
+.fc-0f8eed {color: #0f8eed}
+.fc-5c3992 {color: #5c3992}
+.fc-360abf {color: #360abf}
+.fc-b3206e {color: #b3206e}
+.fc-444444 {color: #444444}
+/*pages title color*/
+div.bc-f12433 h1 span, div.bc-f12433 h2 span {color: #f12433}
+div.bc-f22433 h1 span, div.bc-f22433 h2 span {color: #f22433}
+div.bc-f37216 h1 span, div.bc-f37216 h2 span, .accordion dd i {color: #f37216}
+div.bc-78c526 h1 span, div.bc-78c526 h2 span, figure.events>figcaption>p>a {color: #78c526}
+div.bc-219c55 h1 span, div.bc-219c55 h2 span {color: #219c55}
+div.bc-01a9ae h1 span, div.bc-01a9ae h2 span, figure.course>figcaption>p>a {color: #01a9ae}
+div.bc-0f8eed h1 span, div.bc-0f8eed h2 span {color: #0f8eed}
+div.bc-5c3992 h1 span, div.bc-5c3992 h2 span {color: #5c3992}
+div.bc-360abf h1 span, div.bc-360abf h2 span {color: #360abf}
+div.bc-b3206e h1 span, div.bc-b3206e h2 span, figure.donate>figcaption>p>a {color: #b3206e}
+div.bc-444444 h1 span, div.bc-444444 h2 span {color: #444444}
+/*pages button color*/
+div.bc-f12433>a {background: #f12433} div.bc-f12433>a:hover {background: #c31e2a}
+div.bc-f22433>a {background: #f22433} div.bc-f22433>a:hover {background: #cb202d}
+div.bc-f37216>a {background: #f37216} div.bc-f37216>a:hover {background: #b55612}
+div.bc-78c526>a {background: #78c526} div.bc-78c526>a:hover {background: #5b951e}
+div.bc-219c55>a {background: #219c55} div.bc-219c55>a:hover {background: #166939}
+div.bc-01a9ae>a {background: #01a9ae} div.bc-01a9ae>a:hover {background: #006164}
+div.bc-0f8eed>a {background: #0f8eed} div.bc-0f8eed>a:hover {background: #0e6db4}
+div.bc-5c3992>a {background: #5c3992} div.bc-5c3992>a:hover {background: #39235c}
+div.bc-360abf>a {background: #360abf} div.bc-360abf>a:hover {background: #260884}
+div.bc-b3206e>a {background: #b3206e} div.bc-b3206e>a:hover {background: #741547}
+div.bc-444444>a {background: #444444} div.bc-444444>a:hover {background: #222222}
+/*cart & course*/
+div.bc-01a9a>h3 {border-bottom: 1px solid #01a9ae; color: #01a9ae}
+div.bc-f12433>h3 {border-bottom: 1px solid #f12433; font-size: 1.15rem; font-weight: 400}
+
+/*accordion*/
+.accordion {width: 100%}
+.accordion .link {
+	background: #e5e5e5;
+	padding: .5rem .75rem;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	cursor: pointer;
+	display: block
+}
+.accordion dd:last-child .link {border-bottom: none}
+.accordion dd i {
+	font-size: 1.5rem;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.accordion dd.open i {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+/* Submenu */
+.submenu {display: none}
+.submenu dd {margin-bottom: 0; padding: .5rem .75rem}
+.submenu dd p {margin-bottom: 0}
+
+/*navi*/
+div.navi>span {font-size: .95rem}
+div.navi>span>a {color: #f22433}
+div.navi>span::after {
+	font-size: .95rem;
+	font-weight: 300;
+	margin-right: .2rem;
+	margin-left: .25rem;
+	content: "/"
+}
+div.navi>span:last-of-type::after {content: none}
+
+/*card list*/
+figure.card {
+	border: 1px solid #9b9b9b;
+	border-radius: 0
+}
+figure.card>figcaption {padding: .75rem}
+figure.card>figcaption>h3 {
+	font-size: 1.1rem;
+	font-weight: 400;
+	/*單行文字限制*/
+	overflow:hidden;
+	text-overflow : ellipsis;
+	white-space : nowrap;
+}
+figure.card>figcaption>p {
+	/*單行文字限制*/
+	overflow:hidden;
+	text-overflow : ellipsis;
+	white-space : nowrap;
+	margin-bottom: 0;
+}
+figure.card>figcaption>p:last-of-type {text-align: center}
+
+/*公告 Bulletin*/
+div.Bulletin {border-bottom: 1px dashed #ccc; margin-bottom: 1.25rem; padding-bottom: 1.25rem}
+div.bulletin>h3 {
+	font-size: 1.5rem;
+	font-weight: 300;
+	/*單行文字限制*/
+	overflow:hidden;
+	text-overflow : ellipsis;
+	white-space : nowrap;
+}
+div.bulletin>p {
+	font-weight: 300;
+	/*單行文字限制*/
+	overflow:hidden;
+	text-overflow : ellipsis;
+	white-space : nowrap;
+}
+
+/*聯絡我們 contact*/
+div.contactIntro {text-align: center}
+div.contactIntro>p:nth-of-type(2) {color: #f00}
+form>dl>dd:last-of-type {text-align: center}
+
+/*常見問題 Q&A*/
+div.faq {
+	border-color: #6d6d6d;
+	margin-bottom: 1.5rem;
+}
+div.card-header {background: #fff !important}
+div.card-header>h5>button {
+	color: #f12433 !important;
+	text-decoration: none !important;
+	text-align: left !important
+}
+div.card-body>div.editor {background: #eee; padding: 1rem}
+
+/*搜尋 Search*/
+div.searchnone>p>span {color: #f00}
+div.Results {border-bottom: 1px solid #ddd}
+
+/*星情 Horoscopes*/
+div.teacherInfo>h2 {
+	font-size: 1.15rem;
+	font-weight: 400;
+	color: #360abf
+}
+dl.horoLink>dd {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: .5rem;
+	padding-left: .5rem;
+}
+div.horoContent div.title {border-bottom: none !important}
+div.horoContent>div.col-md-6 a {padding: 0}
+div.horoContent div.title {border-top: 5px solid #360abf; padding: .5rem 1rem}
+div.viedo {height: 468px}
+div.viedo>iframe {
+	width: 100%;
+	height: 468px;
+}
+
+/*影音作品創作平台 Film & Video*/
+ul.slides>li>iframe {
+	width: 100%;
+	height: 445px;
+}
+/*nav tabs*/
+.nav-pills .nav-link {
+	border-bottom: 3px solid rgba(0, 0, 0, 0);
+	border-radius: 0;
+	color: #707070
+}
+.nav-link:focus, .nav-link:hover {
+	border-bottom: 3px solid rgba(0, 0, 0, 1);
+	color: #000
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	background: none;
+	border-bottom: 3px solid rgba(0, 0, 0, 1);
+	color: #000
+}
+dl.videoList>dd {margin-bottom: 1.5rem}
+dl.videoList>dd>h3 {
+	font-size: 1.25rem;
+	font-weight: 400;
+	/*單行文字限制*/
+	overflow:hidden;
+	text-overflow : ellipsis;
+	white-space : nowrap
+}
+dl.videoList>dd>p {
+	/*多行文字限制*/
+	display: -webkit-box;  
+	overflow:hidden;
+	text-overflow : ellipsis;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical
+}
+
+/*cart & course*/
+div.checkout {}
+div.checkout>h3 {
+	font-size: 1.15rem;
+	font-weight: 400;
+	letter-spacing: .35rem;
+	padding-left: .5rem;
+	padding-bottom: .25rem
+}
+table.coursePrice tr {border-bottom: 1px solid #ddd}
+table.coursePrice tr:last-of-type {border-bottom: none}
+table.coursePrice tr:nth-of-type(1) {background: #a0a0a0}
+table.coursePrice tr th {width: 25%}
+table.coursePrice tr th:nth-of-type(2) {width: 50%}
+table.coursePrice tr th {
+	border-right: 1px solid #fff;
+	font-weight: 300;
+	color: #fff;
+	text-align: center;
+	padding: .25rem
+}
+table.coursePrice tr td {
+	text-align: center;
+	padding: .5rem .25rem
+}
+
+dl.coursePrice>dt {
+	background: #a0a0a0;
+	border-bottom: 1px dashed #ddd;
+	font-weight: 300;
+	color: #fff;
+	text-align: center;
+	padding: .25rem 0
+}
+dl.coursePrice>dd {
+	border-bottom: 1px dashed #ddd;
+	margin-bottom: 0;
+	padding: .25rem 0
+}
+dl.coursePrice>dt:nth-of-type(3n+1), dl.coursePrice>dd:nth-of-type(3n+1) {border-top: 1px solid #999}
+dl.coursePrice>dt:nth-of-type(3n+3), dl.coursePrice>dd:nth-of-type(3n+3) {
+	border-bottom: 1px solid #999;
+	margin-bottom: .75rem
+}
+
+/*total price*/
+dl.totalPrice>dd {text-align: right}
+dl.totalPrice>dd:last-of-type {background: #000}
+dl.totalPrice>dd>span:nth-of-type(1) {margin-right: 1rem}
+dl.totalPrice>dd>span:nth-of-type(2) {width: 5rem; color: #f00}
+dl.totalPrice>dd:last-of-type>span {color: #fff}
+
+/*payment*/
+dl.payment {background: #efefef}
+dl.payment>dd {margin-bottom: 0; padding: 1.5rem}
+dl.payment>dd>label {margin-bottom: 0}
+/*checkoutForm*/
+dl.checkoutForm>dd {margin-bottom: .75rem}
+dl.checkoutForm>dd>label {text-align: left; margin-bottom: 0}
+/*checkoutDone*/
+div.checkoutDone>p>span {color: #f00}
+
+dl.buyMore>dd>p:nth-of-type(2) {color: #f00}
+
+/*媒合區 & 演出/工作機會*/
+dl.Match>dd {text-align: center; padding: 1rem; position: relative}
+dl.Match>dd>p {margin-bottom: 0; padding: .75rem}
+dl.Match>dd>span {
+	display: none;
+	width: 100%;
+	font-size: 2.35rem;
+	position: absolute;
+	bottom: -15px
+}
+
+/*search items*/
+div.searchItems {text-align: center}
+div.searchItems>a.searchItems {
+	width: 100%;
+	background: none !important;
+	border: none;
+	border-bottom: 3px solid rgba(0, 0, 0, 1);
+	border-radius: 0;
+	box-shadow: none !important;
+	color: #000 !important
+}
+/*search items mobile*/
+div.searchItems>div.dropdown-menu {
+	background: rgba(255, 255, 255, 0.95) !important;
+	border-radius: .5rem;
+	box-shadow: rgba(0, 0, 0, 0.35) 0 0 20px
+}
+nav.searchItems>div.nav {display: inherit !important}
+nav.searchItems>div.nav>a {margin-bottom: 1rem}
+nav.searchItems>div.nav>a:last-of-type {margin-bottom: 0}
+
+/*search items content*/
+dl.searchItems>dd, dl.city>dd {
+	border-right: 1px solid #ddd;
+	text-align: center
+}
+dl.searchItems>dd:nth-of-type(4n+4) {border-right: none}
+dl.city>dd:nth-of-type(3), dl.city>dd:last-of-type {border-right: none}
+dl.searchItems>dd:last-of-type>button, dl.city>dd:last-of-type>button {padding: .5rem 2.5rem}
+
+/*project colors*/
+dl.bc-f22433>dd:hover>p, dl.bc-f22433>dd.active>p {background: #f22433;color: #fff}
+dl.bc-f22433>dd>span {color: #f22433}
+dl.bc-f22433>dd.active>span {display: block}
+
+dl.bc-f37216>dd:hover>p, dl.bc-f37216>dd.active>p {background: #f37216;color: #fff}
+dl.bc-f37216>dd>span {color: #f37216}
+dl.bc-f37216>dd.active>span {display: block}
+
+/*content selector*/
+div.contentSelector>p {margin-bottom: 0; padding-right: .5rem}
+div.contentSelector>p>img {width: 1rem}
+div.contentSelector>p>a {
+	background: #e9e9e9;
+	border-radius: .5rem;
+	color: #bfbfbf;
+	padding: .25rem .5rem
+}
+div.contentSelector>p>a:hover, div.contentSelector>p>a.active {
+	background: #f22433;
+	color: #fff;
+}
+div.addProd>a {color: #f22433}
+div.addProd>a:hover {color: #a81722}
+
+div.Selector-f37216>p>a:hover, div.Selector-f37216>p>a.active {
+	background: #f37216;
+	color: #fff;
+}
+div.addProd-f37216>a {color: #f37216}
+div.addProd-f37216>a:hover {color: #a84e0e}
+
+/*project content*/
+/*matchs suare*/
+dl.matchsSuare>dd>figure>p>a>img {border: 1px solid #ddd}
+dl.matchsSuare>dd>figure>figcaption {margin-top: .5rem}
+dl.matchsSuare>dd>figure>figcaption>h3 {font-size: 1.15rem}
+dl.matchsSuare>dd>figure>figcaption>p {margin-bottom: 0}
+dl.matchsSuare>dd>figure>figcaption>p>i,
+dl.actorProd>dd>figure>figcaption>p>i {color: #f22433; cursor: pointer}
+dl.matchsSuare>dd>figure>figcaption>p>i::before, dl.matchsSuare>dd>figure>figcaption>p>i::after,
+dl.actorProd>dd>figure>figcaption>p>i::before, dl.actorProd>dd>figure>figcaption>p>i::after {margin-right: 0; margin-left: 0}
+dl.matchsSuare>dd>figure>figcaption>p>span:nth-of-type(2) {color: #f22433}
+dl.matchsSuare>dd>figure>figcaption>p.spoker {border-top: 1px solid #ddd; margin-top: .5rem; padding-top: .5rem}
+/*matchs list*/
+div.matchsList {border-top: 1px solid #ddd; padding-top: 1.5rem; padding-bottom: 1.5em}
+div.matchsList dl.matchsList, div.matchsList dl.matchsList>dd {margin-bottom: 0}
+div.matchsList dl.matchsList>dt {
+	font-size: 1.25rem;
+	font-weight: 400;
+}
+div.matchsList dl.matchsList>dd>span:nth-of-type(2) {color: #f22433}
+div.matchsList dl.matchsList>dd>i {color: #f22433; cursor: pointer}
+div.matchsList dl.matchsList>dd>i::before,
+div.matchsList dl.matchsList>dd>i::after {margin-right: 0; margin-left: 0}
+
+/*spokesperson*/
+div.Actor, div.Actor>a {
+	border-bottom: none !important;
+	color: #757575
+}
+div.Actor>a:hover, div.Spoker>a.active {
+	border-bottom: none !important;
+	color: #ff6680 !important
+}
+/*detail*/
+dl.actorInfo>dt {
+	border-bottom: 1px solid #ddd;
+	font-size: 1.25rem;
+	font-weight: 400
+}
+dl.actorInfo>dt i::after,
+dl.actorInfo>dt i::before {margin-right: 0; margin-left: 0}
+
+dl.actorList>dd::before {
+	content: "\f04d";
+	font-weight: 900;
+	color: #ff97a4
+}
+dl.actorList>dd>span::after {content: "|"}
+dl.actorList>dd>span:last-of-type::after {content: none}
+
+dl.actorProd>dt {font-weight: 400; text-align: right}
+dl.actorProd>dt>a {color: #f22433}
+dl.actorProd>dd>figure {border: 1px solid #ddd}
+dl.actorProd>dd>figure>figcaption>h3 {
+	font-size: 1.15rem;
+	font-weight: 400;
+	margin-bottom: 0
+}
+dl.actorProd>dd>figure>figcaption>p:nth-of-type(1) {border-bottom: 1px solid #ddd}
+dl.actorProd>dd>figure>figcaption>p:nth-of-type(3) {border-bottom: 1px solid #ddd; font-size: 1.75rem}
+dl.actorProd>dd>figure>figcaption>h5 {font-size: 1.1rem; font-weight: 400}
+dl.actorProd>dd>figure>figcaption>p>button {
+	width: 100%;
+	background: #f22433;
+	border: none;
+	color: #fff
+}
+
+/*endorsmenet*/
+dl.Endors>dd>figure>figcaption>p:nth-of-type(1) {color: #a0a0a0}
+/*detail*/
+div.app-figure {text-align: center}
+dl.companyInfo>dt {border-bottom: 1px solid #ddd; font-weight: 400; margin-bottom: 1.5rem; padding-bottom: 1rem}
+dl.companyInfo>dt>span>img {max-width: 35px !important}
+dl.companyInfo>dt>span:last-of-type {text-align: right}
+
+/*actor*/
+dl.actorSelector>dt {font-weight: 300}
+dl.actorSelector>dt>a {color: #757575}
+div.Mobile>button {width: 100%; margin-bottom: 1.5rem}
+
+/*team*/
+table.Team {width: 100%}
+table.Team tr {border-bottom: 1px solid #ddd}
+table.Team th {font-weight: 400; text-align: center; padding-bottom: .5rem}
+table.Team th:nth-of-type(1) {width: 15%}
+table.Team th:nth-of-type(2) {width: 35%}
+table.Team th:nth-of-type(3) {width: 25%}
+table.Team th:nth-of-type(4) {width: 25%}
+table.Team td {text-align: center; padding: 1rem .5rem}
+dl.Team>dt {text-align: right}
+
+/*jobs*/
+dl.Jobs {border-top: #ddd 1px solid; padding-top: 1.5rem}
+dl.Jobs>dd>h3 {
+	font-size: 1.25rem;
+	font-weight: 400;
+	color: #f37216
+}
+dl.Jobs>dd>p {margin-bottom: 0}
+dl.Jobs>dd:nth-of-type(3n+3) {
+	border-bottom: 1px solid #ddd;
+	margin-top: 1rem;
+	padding-bottom: 1rem
+}
+dl.Jobs>dd:nth-of-type(3n+3)>p {
+	/*多行文字限制*/
+	display: -webkit-box;  
+	overflow:hidden;
+	text-overflow : ellipsis;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
